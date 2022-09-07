@@ -1,0 +1,11 @@
+print("--  Dissecando uma variável   --")
+resposta = input("Digite algo: ")
+
+print("A resposta é str pois a função input retorna esse tipo")
+print("A resposta é um valor de espaços? ", resposta.isspace())
+print("É numérico? ", resposta.isnumeric())
+print("É alfabético? ", resposta.isalpha())
+print("É alfanumérico? ", resposta.isalnum())
+print("É maiúsculas? ", resposta.isupper())
+print("É minúsculas? ", resposta.islower())
+print("Esta capitalizada? ", resposta.istitle())
