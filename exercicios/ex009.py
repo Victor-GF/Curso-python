@@ -2,8 +2,9 @@ print("-- Tabuada Pronta --")
 
 num = int(input("De qual número será a tabuada: "))
 
-print("""
-  {} X 1 = {}
+print(
+    "-" * 20,
+    """\n  {} X 1 = {}
   {} X 2 = {}
   {} X 3 = {}
   {} X 4 = {}
@@ -12,18 +13,17 @@ print("""
   {} X 7 = {}
   {} X 8 = {}
   {} X 9 = {}
-  {} X 10 = {}
-""".format(
-  num, num,
-  num, num * 2,
-  num, num * 3,
-  num, num * 4,
-  num, num * 5,
-  num, num * 5,
-  num, num * 6,
-  num, num * 7,
-  num, num * 8,
-  num, num * 9,
-  num, num * 10
-))
-
+  {} X 10 = {}\n""".format(
+        num, num,
+        num, num * 2,
+        num, num * 3,
+        num, num * 4,
+        num, num * 5,
+        num, num * 6,
+        num, num * 7,
+        num, num * 8,
+        num, num * 9,
+        num, num * 10
+    ),
+    "-" * 20
+)
