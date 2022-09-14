@@ -1,6 +1,8 @@
 num = float(input("Digite um número: "))
 
-print("O dobro de {} é {}".format(num, num * 2))
-print("Seu triplo é ", num * 3)
-print("E sua raiz quadrada é ", num ** .5)
+print(
+  "O dobro de {} é {} \nSeu triplo é {} \nE sua raiz quadrada é {:.2f}".format(
+    num, num * 2, num * 3, num ** 0.5
+  )
+)
 
