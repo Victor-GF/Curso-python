@@ -1,7 +1,11 @@
 print("-- Aplicador de Desconto --")
 
-preco = float(input("Digite o valor do preço do produto: "))
-desconto = (5 / 100) * preco
+preco = float(input("Digite o valor do preço do produto: R$"))
+porcentagem = float(input("Digite a quantidade de desconto: %"))
+desconto = (porcentagem / 100) * preco
 
-print("O valor {} terá {} reais de desconto e seu valor final será {}".format(preco, desconto, preco - desconto))
-
+print(
+  "R${:.2f} terá R${:.2f} de desconto e seu valor final será R${:.2f}".format(
+    preco, desconto, preco - desconto
+  )
+)
