@@ -10,5 +10,5 @@ lista = [aluno1, aluno2, aluno3, aluno4]
 # Embaralha a lista
 shuffle(lista)
 
-print("A ordem dos alunos será:", *lista)
+print(">> A ordem dos alunos será:", *lista)
 
