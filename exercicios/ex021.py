@@ -1,9 +1,8 @@
-from pygame import init
-from pygame import mixer
+import pygame
 
-init()
-musica = mixer.Sound("HWA Theme on Guitar.mp3")
-musica.play()
+pygame.init()
+pygame.mixer.music.load("HWA Theme on Guitar.mp3")
+pygame.mixer.music.play()
 
 print("--  Music Player em Python  --")
 input(">> PRESIONE ENTER PARA ENCERRAR")
